@@ -5,7 +5,7 @@ import CartWidget from '../CartWidget/CartWidget';
 const NavBar = () => {
   return (
     <div className="container">
-        <p className="logo">Coda</p>
+        <h2 className="logo">Coda</h2>
         <nav>
             <Categories clickin= "Inicio" />
             <Categories clickin= "Tienda" />

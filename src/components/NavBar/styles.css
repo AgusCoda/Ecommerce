@@ -22,7 +22,7 @@ ul {
     background-color: #f5f5f5;
 }
 
-p {
+h2 {
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
     font-style: italic;
@@ -35,8 +35,17 @@ a {
     color: #000;
 }
 
+p {
+    font-size: 15px;
+}
+
 a:last-child {
     padding-left: 0px;
+    font-size: 15px;
+}
+
+a:last-child:hover {
+    text-decoration: none;
 }
 
 a:hover {
@@ -46,5 +55,5 @@ a:hover {
 svg {
     width: 30px;
     height: 30px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
