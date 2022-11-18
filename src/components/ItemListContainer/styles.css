@@ -1,4 +1,13 @@
-h1 {
-    text-decoration: underline;
-    margin-left: 20px;
+body {
+    background-color: #00003E;
+}
+
+.fondo {
+    width: 1600px;
+    margin: auto;
+    height: 90vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
 }
