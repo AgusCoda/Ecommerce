@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Item = ({producto}) => {
   return (
       <div className="card">
@@ -8,10 +10,13 @@ const Item = ({producto}) => {
             <h2>{producto.nombre}</h2>
             <p>{producto.precio}</p>
           </div>
-          <button className="add">Ver detalle</button>
+          <Link to={`detail/${producto.id}`}>
+            <button className="add">Ver detalle</button>
+          </Link>
         </div>
       </div>
   )
 }
 
 export default Item;
+

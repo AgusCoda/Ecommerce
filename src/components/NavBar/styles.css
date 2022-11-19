@@ -85,6 +85,7 @@ svg {
 .number_cart {
     display: flex;
     align-items: flex-end;
+    text-decoration: none;
 }
 
 .number_cart p {

@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 
 const ItemListContainer = () => {
   const [productList, setProductList] = useState([]);
-  const categoryName = useParams();
+  const {categoryName} = useParams();
 
   const getProducts = new Promise((resolve, reject) => {
     setTimeout(() => {

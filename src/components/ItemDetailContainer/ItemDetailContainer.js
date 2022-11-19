@@ -26,15 +26,3 @@ const ItemDetailContainer = () => {
 }
 
 export default ItemDetailContainer;
-
-// const getData = new Promise((resolve, reject) => {
-//     setTimeout(() => {
-//         resolve(productsDetail);
-//     }, 2000);
-// });
-// useEffect(() => {
-//     getData.then((response) => {
-//         setProductoDetail(response[0]);
-//     });
-//     // eslint-disable-next-line
-// }, []);
