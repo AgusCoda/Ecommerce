@@ -7,7 +7,7 @@ import { Link, NavLink } from 'react-router-dom';
 const NavBar = () => {
   return (
     <nav>
-      <img src={logo} alt="logo" />
+      <Link to="/"><img src={logo} alt="logo"/></Link>
       <ul>
         <li>
           <NavLink to="/"><Categories clickin="Inicio"/></NavLink>
